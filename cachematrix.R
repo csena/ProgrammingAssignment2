@@ -10,10 +10,10 @@
 # h8 <- hilbert(8)
 # m1 <- makeCacheMatrix(h8)
 # inv <- cacheSolve(m1)
-# inv            # inverse of h8
+# inv   # inverse of h8
 # cacheSolve(m1) # will print "getting cached data"
 # m1$set(inv)
-# inv            # inverse of the inverse, equals to h8
+# inv   # inverse of the inverse, equals to h8
 
 
 ## Creates a special matrix object that can cache its inverse matrix
